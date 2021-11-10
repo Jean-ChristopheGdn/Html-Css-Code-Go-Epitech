@@ -1,0 +1,42 @@
+
+body
+{
+	background-color: yellow;
+}
+
+.p1
+{
+    background-color: black;
+    font-family: Impact;
+    font-size: 21px;
+    color: white;
+}
+
+.p2
+{
+    background-color: white;
+    font-family: Impact;
+    font-size: 27px;
+    color: black;
+}
+
+
+.left-bordered-and-big
+{
+    float: left;
+    border: 1px solid black;
+    width: 60%;
+}
+
+.right-bordered-and-small
+{
+    float: right;
+    border: 1px solid black;
+    width: 20%;
+}
+
+em
+{
+    color: red;
+    font-style: italic;
+}

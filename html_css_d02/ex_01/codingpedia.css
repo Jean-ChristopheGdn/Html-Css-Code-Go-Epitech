@@ -1,0 +1,154 @@
+/*header */
+
+header
+{
+	border: 2px black solid;
+	display: flex;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	width: 99%;
+	height: 150px;
+	z-index: 3;	
+	padding: 2px;
+	margin: 5px;	
+}
+
+header h1
+{
+	font-size: 3em;
+	font-weight: normal;
+	margin-top: 50px;
+	margin-left: 30px;
+	text-align: left;
+}
+
+/* Navigation */
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+
+	border: 2px solid black;
+	text-align: left;
+	padding: 5px;
+
+
+}
+nav li
+{
+
+	border: 1px solid black;
+	padding: 2px;
+
+
+
+}
+
+nav 
+{
+	font-size: 1.3em;
+	background-color: white;
+	margin : 1%;
+	position: absolute;
+	float: right;
+	right: 0;
+	margin: 3.5%;
+
+
+}
+
+/*body*/
+body
+{
+	display: flex;
+	flex-direction: column;
+	margin: 2px;
+}
+main
+{
+	display: flex;
+	margin: 2px;
+	
+}
+
+section
+{
+    margin-bottom: 2%;
+    border: 2px black solid;
+    margin: 1%;
+    width: 120%;
+}
+
+article, aside
+{
+    text-align: justify;
+    border: 2px black solid;
+    padding: 5px;
+}
+
+article
+{
+    margin: 10px;
+    border: 2px black solid;
+    text-align: left;
+    width: 97%
+}
+
+table
+ {
+border: medium solid black;
+width: 99%;
+margin: 5px;
+
+}
+
+td, th 
+{
+border: thin solid black;
+width: 80%;
+text-align: center;
+
+}
+
+article 
+{
+    font-size: 1.3em;
+    border: 2px black solid;
+    margin: 15px;
+}
+
+aside
+{
+    position: relative;
+    padding: 10px;
+    font-size: 1.3em;
+    border: 2px black solid;
+    width: 400px;
+    text-align: left;
+    
+}
+#code
+{
+	border: 2px solid black;
+	margin: 15px;
+	width: 96%;
+	padding: 10px;
+	font-size: 1.3em;
+}
+caption
+{
+	text-align: left;
+}
+
+/* footer */
+footer
+{
+	border: 2px black solid;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	position: sticky;
+	bottom: 0;
+	background-color: white;
+}

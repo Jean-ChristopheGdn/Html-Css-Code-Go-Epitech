@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'satisfyregular';
+    src: url('Satisfy-Regular-webfont.eot');
+    src: url('Satisfy-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Satisfy-Regular-webfont.woff2') format('woff2'),
+         url('Satisfy-Regular-webfont.woff') format('woff'),
+         url('Satisfy-Regular-webfont.ttf') format('truetype'),
+         url('Satisfy-Regular-webfont.svg#satisfyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*header */
+
+header
+{
+	border: 2px black solid;
+	display: flex;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	width: 99%;
+	height: 150px;
+	z-index: 3;	
+	padding: 2px;
+	margin: 5px;	
+}
+
+header h1
+{
+	font-size: 2em;
+	font-weight: normal;
+	margin-top: 50px;
+	margin-left: 30px;
+	text-align: left;
+}
+
+/* Navigation */
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+
+	border: 2px solid black;
+	text-align: left;
+	padding: 5px;
+
+}
+nav li
+{
+
+	border: 1px solid black;
+	padding: 2px;
+
+}
+nav li:hover
+{
+	background-color: blue;
+}
+
+nav 
+{
+	font-size: 1.3em;
+	background-color: white;
+	margin : 1%;
+	position: absolute;
+	float: right;
+	right: 0;
+	margin: 3.5%;
+
+
+}
+
+/*body*/
+body
+{
+	display: flex;
+	flex-direction: column;
+	margin: 2px;
+}
+main
+{
+	display: flex;
+	margin: 2px;
+	
+}
+
+section
+{
+    margin-bottom: 2%;
+    border: 2px black solid;
+    margin: 3px;
+    width: 120%;
+}
+
+article, aside
+{
+  
+    border: 2px black solid;
+    padding: 15px;
+}
+
+article 
+{
+    margin: 15px;
+    border: 2px black solid;
+    text-align: left;
+    
+    padding: 5px;
+}
+
+table
+ {
+border: medium solid black;
+width: 99%;
+margin: 5px;
+
+}
+
+td, th 
+{
+border: thin solid black;
+width: 80%;
+text-align: center;
+
+}
+
+article 
+{
+    font-size: 1.3em;
+    border: 2px black solid;
+    margin: 5px;
+}
+
+aside
+{
+    position: relative;
+    padding: 10px;
+    font-size: 1.3em;
+    border: 2px black solid;
+    width: 400px;
+    text-align: left;
+    margin: 2px;
+    
+}
+#code
+{
+	border: 2px solid black;
+	margin: 15px;
+	width: 96%;
+	padding: 10px;
+	font-size: 1.3em;
+}
+caption
+{
+	text-align: left;
+}
+fieldset
+{
+	border: 1px solid black;
+	margin: 1%;
+	padding: 1%;
+}
+.container
+{
+	border: 1px solid black;
+	width: calc(100% - 40px);
+	text-align: center;
+	margin-left: 20px;
+}
+#lin
+{
+	background : linear-gradient(#ADD8E6, #00008B);
+	border: 1px solid black;
+	width: calc(100% - 40px);
+	height: 30px;
+	margin: auto;
+}
+.lettre
+{
+	background-color: grey;
+	font-size: 24px;
+}
+.block{
+border-style: solid;
+border-width: 2px;
+border-color: green;
+width: 50px;
+height: 50px;
+}
+
+div[value="foo1"]{
+background-color: red;
+}
+
+div[value="foo2"]{
+background-color: blue;
+}
+.font
+{
+	font-family: 'satisfyregular'; 
+}
+.mybutton
+{
+	border: 3px solid yellow;
+	border-radius: 25px;
+	border-image: url(border.png) 30;
+}
+.custom
+{
+	text-shadow: 6px 6px 2px black;
+}
+.fond
+{
+	background: url(paper.gif) repeat-x ;
+	position: absolute;
+	z-index: 4
+	
+}
+.fleur
+{
+	background: url(flower.gif) repeat-x; 
+	position: absolute;
+	z-index: 2;
+	padding-right: 0px;
+	margin-right: 0px
+	margin-bottom: 0px;
+	width: 50px;
+}
+.banniere
+{
+	
+}
+/* footer */
+footer
+{
+	border: 2px black solid;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	position: sticky;
+	bottom: 0;
+	background-color: white;
+}
